@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		926A0C6B2A93A34000C94ACB /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A0C6A2A93A34000C94ACB /* RegistrationView.swift */; };
+		92A55BC62A94F2BA00479938 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92A55BC32A94F2BA00479938 /* Gotham-Bold.otf */; };
+		92A55BC92A94F5D300479938 /* Gotham Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92A55BC72A94F5D300479938 /* Gotham Book.otf */; };
+		92A55BCA2A94F5D300479938 /* Gotham Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92A55BC82A94F5D300479938 /* Gotham Medium.otf */; };
 		92ACED212A8F84BA00C950A2 /* NeoSTOREApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACED202A8F84BA00C950A2 /* NeoSTOREApp.swift */; };
-		92ACED232A8F84BA00C950A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACED222A8F84BA00C950A2 /* ContentView.swift */; };
+		92ACED232A8F84BA00C950A2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACED222A8F84BA00C950A2 /* LoginView.swift */; };
 		92ACED252A8F84BC00C950A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ACED242A8F84BC00C950A2 /* Assets.xcassets */; };
 		92ACED282A8F84BC00C950A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ACED272A8F84BC00C950A2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		922D0CDC2A94D2CB00C20F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		926A0C6A2A93A34000C94ACB /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		92A55BC32A94F2BA00479938 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		92A55BC72A94F5D300479938 /* Gotham Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Book.otf"; sourceTree = "<group>"; };
+		92A55BC82A94F5D300479938 /* Gotham Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Medium.otf"; sourceTree = "<group>"; };
 		92ACED1D2A8F84BA00C950A2 /* NeoSTORE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoSTORE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ACED202A8F84BA00C950A2 /* NeoSTOREApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSTOREApp.swift; sourceTree = "<group>"; };
-		92ACED222A8F84BA00C950A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92ACED222A8F84BA00C950A2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		92ACED242A8F84BC00C950A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92ACED272A8F84BC00C950A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +41,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922D0CCE2A94C2D900C20F74 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				922D0CD52A94D24A00C20F74 /* Resource */,
+				922D0CD12A94C39700C20F74 /* Extensions */,
+				922D0CD02A94C38300C20F74 /* CustomViews */,
+				922D0CCF2A94C2F900C20F74 /* Constants */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		922D0CCF2A94C2F900C20F74 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		922D0CD02A94C38300C20F74 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		922D0CD12A94C39700C20F74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		922D0CD22A94C3C700C20F74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		922D0CD32A94C3CE00C20F74 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		922D0CD42A94C3E200C20F74 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		922D0CD52A94D24A00C20F74 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				92A55BC72A94F5D300479938 /* Gotham Book.otf */,
+				92A55BC82A94F5D300479938 /* Gotham Medium.otf */,
+				92A55BC32A94F2BA00479938 /* Gotham-Bold.otf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		925E213A2A94B166007FFECA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				92ACED222A8F84BA00C950A2 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		925E213B2A94B3B1007FFECA /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				926A0C6A2A93A34000C94ACB /* RegistrationView.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		926A0C692A9396E100C94ACB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				925E213B2A94B3B1007FFECA /* Registration */,
+				925E213A2A94B166007FFECA /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		92ACED142A8F84BA00C950A2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +148,13 @@
 		92ACED1F2A8F84BA00C950A2 /* NeoSTORE */ = {
 			isa = PBXGroup;
 			children = (
+				922D0CDC2A94D2CB00C20F74 /* Info.plist */,
+				922D0CD42A94C3E200C20F74 /* WebServices */,
+				922D0CD32A94C3CE00C20F74 /* ViewModel */,
+				922D0CD22A94C3C700C20F74 /* Model */,
+				922D0CCE2A94C2D900C20F74 /* Utilities */,
+				926A0C692A9396E100C94ACB /* View */,
 				92ACED202A8F84BA00C950A2 /* NeoSTOREApp.swift */,
-				92ACED222A8F84BA00C950A2 /* ContentView.swift */,
 				92ACED242A8F84BC00C950A2 /* Assets.xcassets */,
 				92ACED262A8F84BC00C950A2 /* Preview Content */,
 			);
@@ -125,6 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A55BC62A94F2BA00479938 /* Gotham-Bold.otf in Resources */,
+				92A55BCA2A94F5D300479938 /* Gotham Medium.otf in Resources */,
+				92A55BC92A94F5D300479938 /* Gotham Book.otf in Resources */,
 				92ACED282A8F84BC00C950A2 /* Preview Assets.xcassets in Resources */,
 				92ACED252A8F84BC00C950A2 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ACED232A8F84BA00C950A2 /* ContentView.swift in Sources */,
+				926A0C6B2A93A34000C94ACB /* RegistrationView.swift in Sources */,
+				92ACED232A8F84BA00C950A2 /* LoginView.swift in Sources */,
 				92ACED212A8F84BA00C950A2 /* NeoSTOREApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +375,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NeoSTORE/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoSTORE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +404,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NeoSTORE/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoSTORE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
