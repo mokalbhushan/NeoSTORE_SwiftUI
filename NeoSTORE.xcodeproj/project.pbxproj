@@ -7,27 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922F0E0F2A95E67700166257 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F0E0E2A95E67700166257 /* Fonts.swift */; };
+		922F0E112A95EBBE00166257 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F0E102A95EBBE00166257 /* Colors.swift */; };
 		926A0C6B2A93A34000C94ACB /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A0C6A2A93A34000C94ACB /* RegistrationView.swift */; };
 		92A55BC62A94F2BA00479938 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92A55BC32A94F2BA00479938 /* Gotham-Bold.otf */; };
 		92A55BC92A94F5D300479938 /* Gotham Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92A55BC72A94F5D300479938 /* Gotham Book.otf */; };
 		92A55BCA2A94F5D300479938 /* Gotham Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92A55BC82A94F5D300479938 /* Gotham Medium.otf */; };
+		92ABA59B2A9CE07A0081DB99 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ABA59A2A9CE0790081DB99 /* CustomButton.swift */; };
 		92ACED212A8F84BA00C950A2 /* NeoSTOREApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACED202A8F84BA00C950A2 /* NeoSTOREApp.swift */; };
 		92ACED232A8F84BA00C950A2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACED222A8F84BA00C950A2 /* LoginView.swift */; };
 		92ACED252A8F84BC00C950A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ACED242A8F84BC00C950A2 /* Assets.xcassets */; };
 		92ACED282A8F84BC00C950A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ACED272A8F84BC00C950A2 /* Preview Assets.xcassets */; };
+		92C3AC9A2A98D9E200CC5246 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C3AC992A98D9E200CC5246 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		922D0CDC2A94D2CB00C20F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		922F0E0E2A95E67700166257 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		922F0E102A95EBBE00166257 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		926A0C6A2A93A34000C94ACB /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		92A55BC32A94F2BA00479938 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
 		92A55BC72A94F5D300479938 /* Gotham Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Book.otf"; sourceTree = "<group>"; };
 		92A55BC82A94F5D300479938 /* Gotham Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Medium.otf"; sourceTree = "<group>"; };
+		92ABA59A2A9CE0790081DB99 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		92ACED1D2A8F84BA00C950A2 /* NeoSTORE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoSTORE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ACED202A8F84BA00C950A2 /* NeoSTOREApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSTOREApp.swift; sourceTree = "<group>"; };
 		92ACED222A8F84BA00C950A2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		92ACED242A8F84BC00C950A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92ACED272A8F84BC00C950A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92C3AC992A98D9E200CC5246 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,8 @@
 		922D0CCF2A94C2F900C20F74 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				922F0E0E2A95E67700166257 /* Fonts.swift */,
+				922F0E102A95EBBE00166257 /* Colors.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -62,6 +72,8 @@
 		922D0CD02A94C38300C20F74 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				92C3AC992A98D9E200CC5246 /* CustomTextField.swift */,
+				92ABA59A2A9CE0790081DB99 /* CustomButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -242,7 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922F0E0F2A95E67700166257 /* Fonts.swift in Sources */,
+				922F0E112A95EBBE00166257 /* Colors.swift in Sources */,
+				92C3AC9A2A98D9E200CC5246 /* CustomTextField.swift in Sources */,
 				926A0C6B2A93A34000C94ACB /* RegistrationView.swift in Sources */,
+				92ABA59B2A9CE07A0081DB99 /* CustomButton.swift in Sources */,
 				92ACED232A8F84BA00C950A2 /* LoginView.swift in Sources */,
 				92ACED212A8F84BA00C950A2 /* NeoSTOREApp.swift in Sources */,
 			);
